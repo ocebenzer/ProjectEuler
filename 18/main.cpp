@@ -52,8 +52,8 @@ int main() {
       paths.push_back(left_next);
     }
     else {
-      const auto &old_left = paths.end();
-      if (old_left->sum < left_next.sum) {
+      const auto &old_left = paths.back();
+      if (old_left.sum < left_next.sum) {
         paths.pop_back();
         paths.push_back(left_next);
       }
