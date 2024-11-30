@@ -1,6 +1,10 @@
 .cache/
 build/
+cmake-build-debug/
 *.out
 
 .vs/
+.idea/
+.vscode/
+
 CppProperties.json

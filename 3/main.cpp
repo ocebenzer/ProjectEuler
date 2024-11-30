@@ -9,7 +9,7 @@ const auto is_prime = [] (long n) {
 };
 
 int main() {
-    const long number{600851475143};
+    const long long number{600851475143};
 
     long highest{0};
     for (long i{1}; i < std::sqrt(number); i++) {
